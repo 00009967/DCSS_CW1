@@ -12,6 +12,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using UsersApi.src.Data;
+using UsersApi.src.Global.Extensions;
 using UsersApi.src.Global.Interfaces;
 using UsersApi.src.Global.Repositories;
 
@@ -29,6 +30,7 @@ namespace UsersApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors();
             services.AddControllers();
             services.AddScoped<IRepositoryWrapper, RepositoryWrapper>();
             services.AddAutoMapper(typeof(Startup));
@@ -43,6 +45,12 @@ namespace UsersApi
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseCors(
+                options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()
+            );
+
+            app.ConfigureExceptionHandler();
 
             app.UseHttpsRedirection();
 

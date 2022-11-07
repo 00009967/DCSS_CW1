@@ -28,7 +28,7 @@ namespace UsersApi.src.users.Controllers
 
         // GET: api/Users
         [HttpGet]
-        public IActionResult GetUser()
+        public IActionResult GetUsers()
         {
             try
             {
@@ -39,6 +39,12 @@ namespace UsersApi.src.users.Controllers
             {
                 return StatusCode(500, $"Internal server error -> \n {e} ");
             }
+        }
+
+        [HttpGet("search")]
+        public ActionResult<List<User>> Search([FromQuery(Name = "phrase")]string phrase)
+        {
+            return _repository.User.FindByCondition(user => user.Name.Contains(phrase)).ToList();
         }
 
         // GET: api/Users/5
@@ -60,6 +66,8 @@ namespace UsersApi.src.users.Controllers
                 return StatusCode(500, $"Internal Server Error ! \n {e}");
             }
         }
+
+
 
         // PUT: api/Users/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
