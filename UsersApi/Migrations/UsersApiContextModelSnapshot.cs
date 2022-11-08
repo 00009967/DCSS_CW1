@@ -51,8 +51,197 @@ namespace UsersApi.Migrations
                         new
                         {
                             Id = 1,
-                            Email = "john@gmail.com",
+                            Email = "John@gmail.com",
                             Name = "John",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Email = "Wade@gmail.com",
+                            Name = "Wade",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Email = "Alex@gmail.com",
+                            Name = "Alex",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Email = "Seth@gmail.com",
+                            Name = "Seth",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Email = "Ivan@gmail.com",
+                            Name = "Ivan",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Email = "Riley@gmail.com",
+                            Name = "Riley",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Email = "Gibert@gmail.com",
+                            Name = "Gibert",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Email = "Jorge@gmail.com",
+                            Name = "Jorge",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 9,
+                            Email = "Jeff@gmail.com",
+                            Name = "Jeff",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 10,
+                            Email = "Dan@gmail.com",
+                            Name = "Dan",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 11,
+                            Email = "Brian@gmail.com",
+                            Name = "Brian",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 12,
+                            Email = "Robert@gmail.com",
+                            Name = "Robert",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 13,
+                            Email = "Miles@gmail.com",
+                            Name = "Miles",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 14,
+                            Email = "Nathaniel@gmail.com",
+                            Name = "Nathaniel",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 15,
+                            Email = "Ethan@gmail.com",
+                            Name = "Ethan",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 16,
+                            Email = "Lewis@gmail.com",
+                            Name = "Lewis",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 17,
+                            Email = "Milton@gmail.com",
+                            Name = "Milton",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 18,
+                            Email = "Joshua@gmail.com",
+                            Name = "Joshua",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 19,
+                            Email = "Glen@gmail.com",
+                            Name = "Glen",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 20,
+                            Email = "Harvey@gmail.com",
+                            Name = "Harvey",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 21,
+                            Email = "Blake@gmail.com",
+                            Name = "Blake",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 22,
+                            Email = "Antonio@gmail.com",
+                            Name = "Antonio",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 23,
+                            Email = "Connar@gmail.com",
+                            Name = "Connar",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 24,
+                            Email = "Julian@gmail.com",
+                            Name = "Julian",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 25,
+                            Email = "Aidan@gmail.com",
+                            Name = "Aidan",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 26,
+                            Email = "Horald@gmail.com",
+                            Name = "Horald",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 27,
+                            Email = "Conner@gmail.com",
+                            Name = "Conner",
+                            Phone = "+998912345678"
+                        },
+                        new
+                        {
+                            Id = 28,
+                            Email = "Mac@gmail.com",
+                            Name = "Mac",
                             Phone = "+998912345678"
                         });
                 });
