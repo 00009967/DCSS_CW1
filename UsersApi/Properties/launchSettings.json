@@ -20,8 +20,9 @@
     "UsersApi": {
       "commandName": "Project",
       "launchBrowser": true,
+      "dotnetRunMessages": true,
       "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:443;http://localhost:80",
+      "applicationUrl": "http://localhost:80",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
