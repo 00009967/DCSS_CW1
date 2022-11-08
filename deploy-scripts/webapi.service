@@ -1,3 +1,6 @@
+[Unit]
+Description=ASP.NET Web API
+
 [Service]
 WorkingDirectory=/var/www/
 ExecStart=/usr/bin/dotnet /var/www/UsersApi.dll
